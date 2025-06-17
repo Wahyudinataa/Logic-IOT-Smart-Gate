@@ -116,7 +116,7 @@ bool isValidUID(byte *uid) {
 void bukaGerbangMasuk(int slot) {
   if (slot == 1) {
     servoMotor.write(90);
-    delay(3000); // waktu lewat
+    delay(3000); // waktu lewat delay
     servoMotor.write(0);
     slot1 = 1;
   } else if (slot == 2) {
